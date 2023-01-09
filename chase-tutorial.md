@@ -329,7 +329,7 @@ info.startCountdown(10)
 ### Now that we have fixed the start point for our player character, we need to fix the way that our collectible spawns. 
 
 
-- :tree: Add another ``||scene:place||`` ``||variables:mySprite||`` ``||scene:on top of random []||`` from the ``||scene:Scene||`` category and add it under the ``||variables:Set Balloons to||`` ``||sprites: sprite [] of kind Food||`` in the ``||loops:on start||`` container. 
+- :tree: Add another ``||scene:place||`` ``||variables:mySprite||`` ``||scene:on top of random []||`` from the ``||scene:Scene||`` category and add it under the ``||variables:Set Balloons to||`` ``||sprites: sprite [] of kind Collectible||`` in the ``||loops:on start||`` container. 
 - :mouse pointer: Change ``||variables:mySprite||`` to ``||variables:Balloons||``. 
 - :mouse pointer: **Click** on the **grey** box and select the purple tile labeled **Spawn**.
 
